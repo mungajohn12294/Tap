@@ -1,0 +1,46 @@
+// src/components/SplashScreen.js
+import React, { useEffect } from "react";
+
+export default function SplashScreen({ onFinish }) {
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      onFinish();
+    }, 2500); // 2.5s splash
+    return () => clearTimeout(timer);
+  }, [onFinish]);
+
+  return (
+    <div style={styles.container}>
+      <h1 style={styles.logo}>TAPTAP</h1>
+      <div style={styles.loader}></div>
+    </div>
+  );
+}
+
+const styles = {
+  container: {
+    height: "100vh",
+    width: "100vw",
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "center",
+    alignItems: "center",
+    background: "linear-gradient(135deg, #0a0a2e, #001a5f)",
+    color: "#00ffaa",
+    overflow: "hidden",
+  },
+  logo: {
+    fontSize: "64px",
+    fontWeight: "bold",
+    textShadow: "0 0 20px #00ffaa, 0 0 40px #00aaff",
+  },
+  loader: {
+    marginTop: "20px",
+    width: "50px",
+    height: "50px",
+    border: "6px solid #00aaff",
+    borderTop: "6px solid #00ffaa",
+    borderRadius: "50%",
+    animation: "spin 1s linear infinite",
+  },
+};

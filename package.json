@@ -1,0 +1,58 @@
+{
+<<<<<<< HEAD
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "firebase": "^12.7.0",
+    "react-firebase-hooks": "^5.1.1",
+    "react-router-dom": "^7.11.0",
+    "react-scripts": "5.0.1",
+    "socket.io-client": "^4.8.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+  "start": "react-scripts start",
+  "build": "react-scripts build",
+  "test": "react-scripts test",
+  "eject": "react-scripts eject",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
+ },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "homepage": "https://mungajohn12294.github.io/Taptapreact",
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}
+=======
+  "dependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}
+"homepage": "https://mungajohn12294.github.io/taptapreact"
+
+"scripts": {
+  "start": "react-scripts start",
+  "build": "react-scripts build",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
+}
+>>>>>>> 6bcdc39675b2b46ac5b218c843f8e92f3eb1ab81
