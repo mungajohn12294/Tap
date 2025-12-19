@@ -37,7 +37,7 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://mungajohn12294.github.io/Taptapreact",
+  "homepage": "https://mungajohn12294.github.io/Tap",
   "devDependencies": {
     "gh-pages": "^6.3.0"
   }
@@ -47,7 +47,7 @@
     "gh-pages": "^6.3.0"
   }
 }
-"homepage": "https://mungajohn12294.github.io/taptapreact"
+"homepage": "https://mungajohn12294.github.io/Tap"
 
 "scripts": {
   "start": "react-scripts start",
